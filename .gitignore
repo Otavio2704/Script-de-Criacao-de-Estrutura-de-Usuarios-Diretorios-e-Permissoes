@@ -1,0 +1,114 @@
+# =============================================================================
+#                         .gitignore - IaC Linux Project
+# =============================================================================
+
+# ========================== LOGS =============================================
+*.log
+*.log.*
+logs/
+
+# ========================== ARQUIVOS TEMPORÁRIOS =============================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+# ========================== SISTEMA OPERACIONAL ==============================
+# Linux
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========================== EDITORES DE TEXTO ================================
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+Session.vim
+.netrwhist
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Nano
+*.save
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+
+# ========================== SEGURANÇA / CREDENCIAIS ==========================
+*.pem
+*.key
+*.crt
+*.csr
+*.env
+*.env.*
+.env.local
+passwords.txt
+credentials.txt
+secrets/
+
+# ========================== SAÍDAS DO SCRIPT =================================
+output/
+reports/
+*.out
+nohup.out
+
+# ========================== COMPACTADOS ======================================
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+*.gz
+*.bz2
+
+# ========================== VAGRANT / VMs ====================================
+.vagrant/
+*.box
+*.vmdk
+*.ova
+*.ovf
+
+# ========================== DOCKER (caso futuro) =============================
+docker-compose.override.yml
+
+# ========================== TERRAFORM (caso futuro) ==========================
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# ========================== ANSIBLE (caso futuro) ============================
+*.retry
+
+# ========================== NOTAS PESSOAIS ===================================
+TODO.md
+NOTES.md
+notas/
+rascunho*
